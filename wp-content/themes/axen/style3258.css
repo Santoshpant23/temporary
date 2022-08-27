@@ -1,0 +1,294 @@
+/*
+Theme Name: Axen
+Theme URI: https://themeforest.net/item/axen-personal-portfolio-wordpress-theme/21199994
+Author: AthenaStudio
+Author URI: https://themeforest.net/user/athenastudio
+Description: Axen is a creative, elegant and responsive resume WordPress theme built with Bootstrap framework.
+Version: 2.2
+License: GNU General Public License version 3.0
+License URI: https://www.gnu.org/licenses/gpl-3.0.html
+Tags: one-column, two-columns, right-sidebar, flexible-header, custom-colors, custom-header, custom-menu, editor-style, theme-options, threaded-comments, translation-ready
+Text Domain: axen
+*/
+
+/*
+ * WordPress Core
+ */
+
+.alignnone {
+	margin:5px 20px 5px 0 !important;
+}
+
+.aligncenter, div.aligncenter {
+	display:block;
+	text-align:center;
+	margin:25px auto 25px auto !important;
+}
+
+.alignright {
+	float:right;
+	margin:5px 0 20px 20px !important;
+}
+
+.alignleft {
+	float:left;
+	margin:5px 20px 20px 0 !important;
+}
+
+.aligncenter {
+	display:block;
+	margin:25px auto 25px auto !important;
+}
+
+.alignfull {
+    position:relative;
+    background-size:cover !important;
+    background-repeat:no-repeat;
+    max-width:3000px !important;
+    margin:0;
+	padding:0;
+    width:100vw !important;
+    left:calc(50% - 50vw);
+}
+
+a img.alignright {
+	float:right;
+	margin:5px 0 20px 20px;
+}
+
+a img.alignnone {
+	margin:5px 20px 20px 0;
+}
+
+a img.alignleft {
+	float:left;
+	margin:5px 20px 20px 0;
+}
+
+a img.aligncenter {
+	display:block;
+	margin-left:auto;
+	margin-right:auto
+}
+
+/* Caption */
+.gallery-caption {
+	display:block;
+}
+
+.wp-caption {
+	background:#fff;
+	border:1px solid #f0f0f0;
+	border-radius:3px;
+	max-width:96%;
+	padding:10px 10px 5px;
+	text-align:center;
+}
+
+.wp-caption.alignnone {
+	clear:both;
+	margin:5px 20px 20px 0 !important;
+}
+
+.wp-caption.alignleft {
+	margin:5px 20px 20px 0 !important;
+}
+
+.wp-caption.alignright {
+	margin:5px 0 20px 20px !important;
+}
+
+.wp-caption img {
+	border:0 none;
+	height:auto;
+	margin:0;
+	padding:0;
+	border-radius:0;
+}
+
+.wp-caption p.wp-caption-text {
+	color:#666;
+	font-size:14px;
+	line-height:1em;
+	font-style:italic;
+	margin-top:10px;
+	padding:0;
+}
+
+/* Text widget */
+.textwidget select {
+  	max-width:100%;
+}
+
+.textwidget img {
+	height:auto;
+}
+
+/* Sticky post */
+.sticky .post-text.post-text-no-image {
+	background:none repeat scroll 0 0 #ddd;
+	padding:20px;
+}
+
+.sticky.post-item .post-item-body .meta {
+	margin-top:0px;
+	padding:10px 15px;
+	background:#ececec;
+}
+
+.sticky.post-item .post-item-body .meta p {
+	margin-right:20px;
+	margin-top:0px;
+}
+
+/* Separator */
+.wp-block-separator {
+	border:0;
+	background-color:#ddd;
+	height:1px;
+	max-width:100px;
+}
+
+.wp-block-separator.is-style-wide {
+	width:100%;
+	max-width:none;
+	margin:1.65em auto;
+}
+
+.wp-block-separator.is-style-dots {
+	width:100%;
+	max-width:none;
+	text-align:center;
+	line-height:1;	
+	margin-bottom:1.6em;	
+}
+
+.wp-block-separator.is-style-dots:before {
+    content:"\00b7 \00b7 \00b7";
+    color:#191e23;
+    font-size:20px;
+    letter-spacing:2em;
+    padding-left:2em;
+    font-family:serif;
+}
+
+/* Verse */
+pre.wp-block-verse {
+	clear:both;
+	border:0 !important;
+	background:transparent !important;
+	color:inherit;
+	font-family:inherit;
+	font-size:inherit;
+	font-style:italic  !important;
+	line-height:inherit;
+	margin:0 0 20px 0;
+	max-width:100%;
+	overflow:auto;
+	padding:0;
+}
+
+/* Pullquote */
+.wp-block-pullquote {
+	border-top:2px solid currentColor;
+	border-bottom:2px solid currentColor;
+	font-style:italic;
+	font-size:24px;
+	font-weight:bold;
+	margin:0 0 1.6em;
+	padding:.8em 0;
+	color:#40464d;
+}
+
+.wp-block-pullquote blockquote {
+	border:0;
+	font-size:24px;
+	margin:0;
+}
+
+.wp-block-pullquote__citation,
+.wp-block-pullquote cite,
+.wp-block-pullquote footer {
+	font-style:normal;
+	font-size:18px;
+	text-transform:none;
+}
+
+.wp-block-pullquote.alignfull blockquote {
+	padding-left:1.6em;
+	padding-right:1.6em;
+}
+
+.wp-block-pullquote.alignleft {
+	margin-right:1.6em;
+}
+
+.wp-block-pullquote.alignright {
+	margin-left:1.6em;
+}
+
+/* Gallery */
+.wp-block-gallery {
+	margin:0 !important;
+}
+
+/* Archives / Categories */
+.wp-block-archives,
+.wp-block-categories {
+	margin:0;
+	padding:0;
+}
+
+.wp-block-archives a,
+.wp-block-categories a {
+	font-weight:600;
+}
+
+.wp-block-archives li, .wp-block-categories li,
+.wp-block-archives ol, .wp-block-categories ol,
+.wp-block-archives ul, .wp-block-categories ul {
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+
+.wp-block-archives li,
+.wp-block-categories li {
+	border-bottom:1px solid #f1f1f1;
+	padding:5px 0;
+	margin:0;
+}
+
+.wp-block-archives li:last-child,
+.wp-block-categories li:last-child {
+    border-bottom:0;
+}
+
+/* Captions */
+[class^="wp-block-"] figcaption {
+	font-size:inherit;
+	font-style:italic;
+	text-align:center;
+	margin-top:.5em;
+}
+
+[class^="wp-block-"]:not(.wp-block-gallery) figcaption {
+	color:inherit;
+}
+
+/* Subhead */
+.wp-block-subhead {
+	clear:both;
+	color:#000;
+	font-size:1.1em;
+	font-style:italic;
+	opacity:.75;
+}
+
+/* Embed */
+.embed-responsive {
+	position:static;
+}
+  
+  
+

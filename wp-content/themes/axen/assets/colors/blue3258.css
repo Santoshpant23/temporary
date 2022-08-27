@@ -1,0 +1,61 @@
+a:hover, 
+a:focus,
+.btn,
+input.submit,
+.wp-block-button__link,
+a:not([href]):not([tabindex]).wp-block-button__link,
+.menu-lightbox .menu li a:hover,
+.menu-lightbox .menu li.current_page_item a,
+.menu-lightbox i.open,
+.services-content > span,
+.works-filters li:hover,
+.fa-li.colored,
+.contact-box .icon,
+footer .copyright > a,
+.sidebar .newsletter-form .btn:hover, 
+.sidebar.widget_search .btn:hover, 
+.search-submit:hover,
+.blog-post .blog-text a,
+.blog-wrapper .blog-text h4 a:hover,
+#error-page p > i,
+.comment-respond #cancel-comment-reply-link {
+	color:#16b6ea;
+}
+
+.more-link:hover, .more-link:focus,
+.wpcf7 form.sent .wpcf7-response-output,
+footer .widget_nav_menu .menu li > a:hover {
+	color:#16b6ea !important;
+}
+
+.line-scale .line,
+.intro-text .words-wrapper,
+.mouse:hover .wheel,
+.services-content:hover,
+.works-filters li.active,
+.works .portfolio-item .loading,
+.testimonials .owl-carousel .owl-dot.active span,
+.btn:hover, .btn:active, .btn:focus,
+input.submit:hover, input.submit:active, input.submit:focus,
+.wp-block-button__link:hover, .wp-block-button__link:active, .wp-block-button__link:focus,
+.sidebar .tagcloud > a,
+.comment-respond #cancel-comment-reply-link:hover {
+	background-color:#16b6ea !important;
+}
+
+.sidebar .tagcloud > a:hover {
+  	background-color:rgba(22, 182, 234, 0.8);
+}
+
+.btn,
+input.submit,
+.wp-block-button__link,
+.mouse:hover,
+.form-control:focus,
+input:focus, textarea:focus, select:focus,
+.sidebar .newsletter-form .btn:hover, 
+.sidebar.widget_search .btn:hover, 
+.search-submit:hover,
+.comment-respond #cancel-comment-reply-link {
+	border-color:#16b6ea;
+}
